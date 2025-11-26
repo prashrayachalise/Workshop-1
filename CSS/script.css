@@ -1,0 +1,146 @@
+box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-color: #e0e0e0;
+}
+header{
+background-color: black;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+border-radius: 5px;
+}
+nav{
+padding-top: 10px;
+}
+ul{
+display: flex;
+list-style: none;
+gap:25px;
+}
+a{
+text-decoration: none;
+color: white;
+}
+a:hover{
+color: gray;
+}
+section h1{
+margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+#About {
+background-color: white;
+margin-top: 20px;
+margin-bottom: 30px;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.about-container {
+background-color: #e0e0e0;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.about-container img {
+width: 250px;
+height: auto;
+border-radius: 10px;
+object-fit: cover;
+}
+
+.about-container p {
+flex: 1;
+font-size: 18px;
+line-height: 1.6;
+}
+
+#Projects {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.Project {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 48%;            
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+.Project p {
+    font-size: 15px;
+    max-width: 100%;
+    height: auto;
+}
+img{
+display: block;
+    margin: 0 auto;
+}
+#Contact{
+background-color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1)
+}
+.form-container{
+text-align: center;
+}
+form{
+display: flex;
+flex-direction: column;
+width: 350px;
+    gap: 15px;
+    margin: 40px auto;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 48%;            
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+
+}
+input[type="textarea"]{
+padding: 10px;
+border-radius: 5px;
+}
+button {
+    background: #222;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #444;
+}
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 5px;
+border-radius: 5px;
+}
